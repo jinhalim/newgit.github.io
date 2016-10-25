@@ -67,14 +67,26 @@ def voh():
 	while count<10:
 		a = random.randrange(1,4)
 		b = random.randrange(1,4)
-		if a > b:
-			# a is win.
-			print("a:win  b:lose")
-		elif a == b:
-			# 
-			print("draw    draw")
-		elif a < b:
-			# b is win. 
-			print("b:win  a:lose")
+		if a == 1://가위
+			if b==2://바위
+				print("b:win  a:lose")
+			elif b== 1://가위
+				print("draw    draw")
+			elif b== 3://보
+				print("a:win  b:lose")
+		elif a == 2://바위
+			if b==2://바위
+                                print("draw    draw")
+                        elif b== 1://가위
+                                print("a:win  b:lose")
+                        elif b== 3://보
+                                print("b:win  a:lose")
+		elif a == 3://보
+                        if b==2://바위
+                                print("a:win  b:lose")
+                        elif b== 1://가위
+                                print("b:win  a:lose")
+                        elif b== 3://보
+                                print("draw    draw")
 		count+=1
 voh()
