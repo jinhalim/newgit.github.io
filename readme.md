@@ -1,5 +1,5 @@
 # git/github 입문
-## git 입문했어요!!
+## git 입문했어요!!!
 <img src="https://octodex.github.com/images/welcometocat.png" height="300">
 
 # github markdown 문법
